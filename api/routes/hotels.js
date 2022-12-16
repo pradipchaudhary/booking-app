@@ -14,6 +14,13 @@ router.post("/", async (req,res)=>{
     }
 })
 // UPDATE
+router.put("/:id", (req,res)=>{
+    try{
+
+    }catch(err){
+        res.status(500).json(err);
+    }
+})
 
 // DELETE
 // GET
